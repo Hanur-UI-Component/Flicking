@@ -1,0 +1,36 @@
+{
+  "name": "library-bolierplate",
+  "version": "1.0.0",
+  "description": "TODO List  - Webpack Setting  - Gulp Setting  - Babel Setting  - Testing Enviroment Setting  - Lint Setting  - CLI Gennerator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanur-UI-Component/LibraryBoilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanur-UI-Component/LibraryBoilerplate/issues"
+  },
+  "homepage": "https://github.com/Hanur-UI-Component/LibraryBoilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "jest": "^18.0.0",
+    "mocha": "^3.2.0",
+    "webpack": "^1.14.0"
+  }
+}
